@@ -1,0 +1,142 @@
+@media (max-width: 1600px) {
+    .footer__item {
+        padding-right: 10px;
+    }
+
+    .footer__line {
+        width: 20%;
+    }
+}
+
+@media (max-width: 1600px) {
+    .footer__line {
+        width: 15%;
+    }
+}
+
+@media (max-width: 1150px) {
+    .slider {
+        display: block;
+    }
+    
+    .slider__line {
+        display: none;
+    }
+
+    .works__title h3 {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .works__line {
+        width: 80%;
+    }
+
+    .footer__line {
+        display: none;
+    }
+}
+
+@media (max-width: 950px) {
+    .works__inner {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .works__item {
+        margin-bottom: 20px;
+    }
+
+@media (max-width: 900px) {
+    .check__inner {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .check__item {
+        margin-right: 15px;
+        margin-bottom: 30px;
+        max-width: 40%;
+    }
+
+    .check__item-3 {
+        max-width: 60%;
+    }
+}
+
+@media (max-width: 900px) {
+    .footer__inner {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .footer__about {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 750px) {
+    .header__menu-btn {
+        display: block;
+    }
+
+    .header__menu > ul {
+        display: none;
+        position: absolute;
+        z-index: 2;
+        top: 120px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: #fff;
+        border-bottom: 5px solid #2aacc8;
+    }
+
+    .header__menu li {
+        display: block;
+        text-align: center;
+    }
+
+    .header__menu li + li {
+        margin-left: 0;
+    }
+
+    .header__menu a {
+        padding: 12px 0 10px 11px;
+        font-weight: 400;
+        text-transform: none;
+        display: block;
+    }
+
+    .header__menu li + li a {
+        border-top: 1px solid #e7e7e7;
+    }
+}
+
+@media (max-width: 730px) {
+    .check__inner {
+        justify-content: flex-start;
+    }
+    
+    .check__item {
+        max-width: 350px;
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 555px) {
+    .footer__inner {
+        justify-content: flex-start;
+    }
+
+    .footer__twitter {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .slider__item-title {
+        margin-left: 5%;
+        width: 90%;
+    }
+}
